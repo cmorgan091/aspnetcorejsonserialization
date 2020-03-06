@@ -21,7 +21,7 @@ namespace JsonTest.Controllers
 
         private IEnumerable<SampleDataPoint> GetSampleData()
         {
-            var pointsToCreate = 20_000;
+            var pointsToCreate = 10_000;
             var random = new Random();
 
             return Enumerable.Range(1, pointsToCreate).Select(x => new SampleDataPoint
